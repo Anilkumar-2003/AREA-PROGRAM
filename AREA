@@ -1,0 +1,8 @@
+function calculateArea(length, width) {
+  var area = length * width;
+  return area;
+}
+var length = 7;
+var width = 9;
+var rectangleArea = calculateArea(length, width);
+console.log(rectangleArea);
